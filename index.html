@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - Dalia Ghrab</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <div class="header">
+        <div class="header-content">
+            <h1>Dalia Ghrab</h1>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/daliaghorab" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a> |
+                <a href="https://github.com/daliaghorab" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+        <div class="profile-pic">
+            <img src="C:\Users\USER\OneDrive\Desktop\firstassignment\profilepic.jpg" alt="Profile Picture">
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Experience Section -->
+        <section class="section">
+            <h2><i class="fas fa-briefcase"></i> Experience</h2>
+            <div class="job">
+                <h3>Technical Services Support</h3>
+                <p>Scientific and Technological School | Jan 2022 - Oct 2023</p>
+                <ul>
+                    <li>Provided technical support for hardware and software issues.</li>
+                    <li>Assisted in troubleshooting and resolving network problems.</li>
+                    <li>Configured and installed software and hardware for new users.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <div class="education">
+                <p><strong>Bachelor's degree in Computer Science</strong></p>
+                <p>Birzeit University, Ramallah | Sep 2019 - July 2024</p>
+            </div>
+            <div class="education">
+                <p><strong>High School Diploma</strong></p>
+                <p>Al Shabbat Secondary School, Jerusalem | Sep 2016 - July 2019</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section">
+            <h2><i class="fas fa-laptop-code"></i> Skills</h2>
+            <ul class="skills-list">
+                <li>C, C++, PHP, JavaScript, Java, HTML, CSS, Python</li>
+                <li>MySQL, MongoDB</li>
+                <li>Microsoft Office: Word, Excel, PowerPoint</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section">
+            <h2><i class="fas fa-project-diagram"></i> Projects</h2>
+            <ul class="projects-list">
+                <li>Fitness Tracking App with Flutter and Firebase</li>
+                <li>E-Commerce Shopping Web Page</li>
+                <li>Library Management System</li>
+            </ul>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section class="section">
+            <h2><i class="fas fa-heart"></i> Hobbies</h2>
+            <ul class="hobbies-list">
+                <li>Reading</li>
+                <li>Traveling</li>
+                <li>Coding</li>
+                <li>Photography</li>
+            </ul>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="section">
+            <h2><i class="fas fa-envelope"></i> Contact Me</h2>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" id="first_name" name="first_name">
+                </div>
+                <div class="form-group">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" id="last_name" name="last_name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="">Select Country</option>
+                        <option value="palestine">Palestine</option>
+                        <option value="jordan">Jordan</option>
+                        <option value="egypt">Egypt</option>
+                        <option value="saudi_arabia">Saudi Arabia</option>
+                        <option value="uae">United Arab Emirates</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="hours_to">Available Hours (To):</label>
+                    <input type="text" id="hours_to" name="hours_to">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description of What You Need:</label>
+                    <textarea id="description" name="description" rows="4" cols="50" placeholder="Describe your needs..."></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Send Message">
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
